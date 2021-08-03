@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_app_with_animation/detail/widgets/side_bar_menu.dart';
+import 'package:food_app_with_animation/home/widgets/side_bar_menu.dart';
 import 'package:food_app_with_animation/home/widgets/side_body_view.dart';
 
 class HomePage extends StatelessWidget {

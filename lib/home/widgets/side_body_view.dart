@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_app_with_animation/detail/page/detail_page.dart';
 
-import '../../../dummy_food_data.dart';
 import '../../../icon_category.dart';
 
 class SideBodyView extends StatelessWidget {
@@ -124,17 +123,17 @@ class SideBodyView extends StatelessWidget {
                 width: 220,
                 height: 300,
                 decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: pictureFood[index],
-                    scale: 3,
-                    fit: BoxFit.fill,
-                  ),
-                ),
+                    // image: DecorationImage(
+                    //   image: pictureFood[index],
+                    //   scale: 3,
+                    //   fit: BoxFit.fill,
+                    // ),
+                    ),
               ),
             ),
           ],
         ),
-        itemCount: pictureFood.length,
+        itemCount: 5,
       ),
     );
   }
